@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Intake" max_length="40" name="x_wkus_request_man_intake" sizeclass="523" type="collection">
+        <element label="Actual Completion Date" max_length="40" name="actual_completion_date" read_only="true" type="glide_date"/>
+        <element label="External Comments" max_length="4000" name="additional_comments" type="journal_input"/>
+        <element label="Affirmation" max_length="40" name="affirmation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Application name to be protected" max_length="4000" name="application_name_to_be_protected" type="string"/>
+        <element label="Application Owner" max_length="32" name="application_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Decision 1" max_length="40" name="approval_decision_1" reference_qual="name=Prashanth Gadgil - Internal^ORname=Prashanth Gadgil^EQ" reference_qual_condition="name=Prashanth Gadgil - Internal^ORname=Prashanth Gadgil^EQ" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Decision 2" max_length="255" name="approval_decision_2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Decision 3" max_length="255" name="approval_decision_3" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Approval Decision Date 1" max_length="40" name="approval_decision_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Decision Date 2" max_length="40" name="approval_decsion_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Decision Date 3" max_length="40" name="approval_decsion_date_3" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Tier" max_length="40" name="approval_tier" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Approver 1" max_length="32" name="approver_1" reference="sys_user" type="reference"/>
+        <element label="Approver 1 Comment" max_length="40" name="approver_1_comment" type="string"/>
+        <element choice="1" label="Approver 1 Type" max_length="40" name="approver_1_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GIS" sequence="0" value="gis"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
+                <element inactive_on_update="false" label="Risk" sequence="2" value="risk"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Approver 2" max_length="32" name="approver_2" reference="sys_user" type="reference"/>
+        <element label="Approver 2 Comment" max_length="40" name="approver_2_comment" type="string"/>
+        <element choice="1" label="Approver 2 Type" max_length="40" name="approver_2_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GIS" sequence="0" value="gis"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
+                <element inactive_on_update="false" label="Risk" sequence="2" value="risk"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Approver 3" max_length="32" name="approver_3" reference="sys_user" type="reference"/>
+        <element label="Approver 3 Comment" max_length="40" name="approver_3_comment" type="string"/>
+        <element choice="1" label="Approver 3 Type" max_length="40" name="approver_3_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GIS" sequence="0" value="gis"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
+                <element inactive_on_update="false" label="Risk" sequence="2" value="risk"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Assessment" max_length="4000" name="assessment" type="html"/>
+        <element label="Assigned Group" max_length="32" name="assigned_group" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="Assigned Person" max_length="32" name="assigned_person" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Associated Ticket" max_length="40" name="associated_ticket" type="string"/>
+        <element label="Business Unit" max_length="32" name="business_unit" reference="u_org_hierarchy" reference_qual="u_level=4^EQ" reference_qual_condition="u_level=4^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Count expected to grow/expand" max_length="4000" name="count_expected_to_grow_expand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer name" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Data Classification" max_length="40" name="data_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confidental" sequence="100" value="Confidental"/>
+                <element inactive_on_update="false" label="Internal" sequence="200" value="Internal"/>
+                <element inactive_on_update="false" label="Public" sequence="300" value="Public"/>
+                <element inactive_on_update="false" label="Restricted" sequence="400" value="Restricted"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="Demand Status" mandatory="true" max_length="40" name="demand_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="New"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="On Hold"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="In Progress"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+                <element inactive="true" inactive_on_update="true" label="Completed" sequence="5" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="Cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Dependencies" max_length="4000" name="dependencies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description of Data Risk" max_length="40" name="description_of_data_risk" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="4000" name="detailed_description" type="string"/>
+        <element label="Detailed Description" max_length="4000" name="detailed_description_f" type="string"/>
+        <element label="Detailed Description in HTML" max_length="8000" name="detailed_description_f_in_html" type="html"/>
+        <element label="Detailed Description" max_length="4000" name="detailed_description_g" type="string"/>
+        <element label="Detailed Description" max_length="4000" name="detailed_description_sso" type="string"/>
+        <element label="Detailed Description in HTML" max_length="8000" name="detailed_description_sso_in_html" type="html"/>
+        <element label="Division" max_length="32" name="division" reference="u_org_hierarchy" reference_qual="u_level=2^EQ" reference_qual_condition="u_level=2^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Effort Size" max_length="40" name="effort_size" type="string">
+            <choice>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+            </choice>
+        </element>
+        <element label="Engagement Begin Date" max_length="40" name="engagement_begin_date" type="glide_date"/>
+        <element label="Engagement End Date" max_length="40" name="engagement_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Engineering Engangement required" max_length="40" name="engineering_engangement_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Estimated ROM Cost" max_length="40" name="estimated_rom_cost" type="string"/>
+        <element label="Estimated ROM Man hours" max_length="40" name="estimated_rom_man_hours" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Exception Type" max_length="40" name="exception_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Application" sequence="1" value="application"/>
+                <element inactive_on_update="false" label="DLP" sequence="2" value="dlp"/>
+                <element inactive_on_update="false" label="EUC" sequence="3" value="euc"/>
+                <element inactive_on_update="false" label="Firewall" sequence="4" value="firewall"/>
+                <element inactive_on_update="false" label="IAM" sequence="5" value="iam"/>
+                <element inactive_on_update="false" label="Malware Prevention" sequence="6" value="malware_prevention"/>
+                <element inactive_on_update="false" label="Network" sequence="7" value="network"/>
+                <element inactive_on_update="false" label="O365" sequence="8" value="o365"/>
+                <element inactive_on_update="false" label="OSS" sequence="9" value="oss"/>
+                <element inactive_on_update="false" label="Server" sequence="10" value="server"/>
+                <element inactive_on_update="false" label="VMS" sequence="11" value="vms"/>
+                <element inactive_on_update="false" label="Other" sequence="13" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Expected initial count of users within the application" max_length="4000" name="expected_initial_count_of_users_within_the_application" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Remediation Date" max_length="40" name="expected_remediation_date" type="glide_date"/>
+        <element label="Expedite" max_length="40" name="expedite" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Expedite Date" max_length="40" name="expedite_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="GIS Committed End Date" max_length="40" name="gis_comitted_end_date" type="glide_date"/>
+        <element choice="1" label="GIS Disposition" max_length="40" name="gis_disposition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Engineering" sequence="0" value="engineering"/>
+                <element inactive_on_update="false" label="Project" sequence="1" value="project"/>
+                <element inactive_on_update="false" label="Invalid" sequence="2" value="invalid"/>
+                <element inactive_on_update="false" label="Assessor" sequence="3" value="assessor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hardware/Software Need" max_length="4000" name="hardware_software_need" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Highest Potential Impact" max_length="40" name="highest_potential_impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Insignificant" sequence="10" value="Insignificant"/>
+                <element inactive_on_update="false" label="Minor" sequence="20" value="Minor"/>
+                <element inactive_on_update="false" label="Moderate" sequence="30" value="Moderate"/>
+                <element inactive_on_update="false" label="Major" sequence="40" value="Major"/>
+                <element inactive_on_update="false" label="Severe" sequence="50" value="Severe"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="How many app environments to support" max_length="4000" name="how_many_app_environments_to_support" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How will users get authorization (profile with permissions) within the applicati" max_length="4000" name="how_will_users_get_authorization_profile_with_permissions_within_the_application" type="string"/>
+        <element label="Impacted Applications or Items" max_length="40" name="impacted_applications_or_items" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Industry Impact" max_length="40" name="industry_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="40" name="justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Level Of Effort" max_length="40" name="level_of_effort" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Likelihood" max_length="40" name="likelihood" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Almost Certain" value="Almost Certain"/>
+                <element inactive_on_update="false" label="Likely" value="Likely"/>
+                <element inactive_on_update="false" label="Possible" value="Possible"/>
+                <element inactive_on_update="false" label="Rare" value="Rare"/>
+                <element inactive_on_update="false" label="Unlikely" value="Unlikely"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Management Line for the Business Affected" max_length="40" name="management_line_for_the_buinsess_affected" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Native Mobile App support Required" max_length="4000" name="native_mobile_app_support_required" type="string"/>
+        <element label="Non-GIS Resources Required" max_length="40" name="non_gis_resources_required" type="boolean"/>
+        <element label="Number of Extensions" max_length="40" name="number_of_extensions" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Exception type" max_length="40" name="other_exception_type" type="string"/>
+        <element label="Owner 1" max_length="32" name="owner_1" reference="sys_user" type="reference"/>
+        <element label="Owner 1 Ack Date" max_length="40" name="owner_1_ack_date" type="glide_date"/>
+        <element label="Owner 1 Title" max_length="40" name="owner_1_title" type="string"/>
+        <element label="Owner 2" max_length="32" name="owner_2" reference="sys_user" type="reference"/>
+        <element label="Owner 2 Ack Date" max_length="40" name="owner_2_ack_date" type="glide_date"/>
+        <element label="Owner 2 Title" max_length="40" name="owner_2_title" type="string"/>
+        <element label="Owner 3" max_length="32" name="owner_3" reference="sys_user" type="reference"/>
+        <element label="Owner 3 Ack Date" max_length="40" name="owner_3_ack_date" type="glide_date"/>
+        <element label="Owner 3 Title" max_length="40" name="owner_3_title" type="string"/>
+        <element label="Pre-Requisites" max_length="4000" name="pre_requisites" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason" max_length="4000" name="reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assessor" sequence="0" value="Assessor"/>
+                <element inactive="true" inactive_on_update="true" label="D&amp;I Review" sequence="0" value="D&amp;I Review"/>
+                <element inactive_on_update="false" label="Approval" sequence="1" value="Approval"/>
+                <element inactive="true" inactive_on_update="true" label="SME Review" sequence="1" value="SME Review"/>
+                <element inactive="true" inactive_on_update="true" label="Risk Assessor Review" sequence="2" value="Risk Assessor Review"/>
+                <element inactive_on_update="false" label="SME" sequence="2" value="SME"/>
+                <element inactive="true" inactive_on_update="true" label="GIS Approval" sequence="3" value="GIS Approval"/>
+                <element dependent_value="8" inactive="true" inactive_on_update="true" label="Business Approval" sequence="4" value="Business Approval"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Regulatory Impact" max_length="40" name="regulatory_impact" type="string"/>
+        <element label="Remediation Plan Summary" max_length="4000" name="remediation_plan_summary" type="string"/>
+        <element label="Request" max_length="32" name="request" reference="sc_request" type="reference"/>
+        <element default="javascript:gs.getUserName();" label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Detail" max_length="40" name="request_detail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="request_type" dependent_on_field="request_type" label="Request Sub-type" max_length="40" name="request_sub_type" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Policy Management" inactive_on_update="false" label="Add New Policy/ Standards" value="Add New Policy/ Standards"/>
+                <element dependent_value="Vulnerability Management" inactive_on_update="false" label="Penetration Test" value="Penetration Test"/>
+                <element dependent_value="Policy Management" inactive_on_update="false" label="Review Policy/Standard" value="Review Policy/Standard"/>
+                <element dependent_value="App Security" inactive_on_update="false" label="SSO Service" value="SSO Service"/>
+                <element dependent_value="Policy Management" inactive_on_update="false" label="Update Existing Policy/ Standards" value="Update Existing Policy/ Standards"/>
+                <element dependent_value="Vulnerability Management" inactive_on_update="false" label="DAST Scan" sequence="1" value="DAST Scan"/>
+                <element dependent_value="Infrastructure" inactive_on_update="false" label="Identity Management" sequence="2" value="Identity Management"/>
+                <element dependent_value="App Security" inactive_on_update="false" label="License" sequence="3" value="License"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Pre-Sale : Contract Review" sequence="4" value="Pre-Sale : Contract Review"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Pre-Sale: Virtual Assessment" sequence="5" value="Pre-Sale: Virtual Assessment"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Security Exception" sequence="6" value="Security Exception"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Pre-Sale: RFP/RFI, Questionnaire,Document Requests" sequence="7" value="Pre-Sale: RFP/RFI, Questionnaire"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Ongoing Monitoring: Questionnaire, Document Requests" sequence="8" value="Ongoing Monitoring: Questionnaire"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Ongoing Monitoring: Onsite Assessment, Virtual Assessment" sequence="9" value="Ongoing Monitoring: Onsite Assessment"/>
+                <element dependent_value="Infrastructure" inactive_on_update="false" label="SIEM" sequence="10" value="SIEM"/>
+                <element dependent_value="App Security" inactive_on_update="false" label="Training" sequence="11" value="Training"/>
+                <element dependent_value="Vulnerability Management" inactive_on_update="false" label="Vulnerability Scan" sequence="13" value="Vulnerability Scan"/>
+                <element dependent_value="Vulnerability Management" inactive_on_update="false" label="Other" sequence="14" value="Other"/>
+                <element dependent_value="Infrastructure" inactive_on_update="false" label="Other" sequence="15" value="Other"/>
+                <element dependent_value="App Security" inactive_on_update="false" label="Other" sequence="16" value="Other"/>
+                <element dependent_value="EUC Security" inactive_on_update="false" label="Other" sequence="16" value="Other"/>
+                <element dependent_value="Policy Management" inactive_on_update="false" label="Other" sequence="17" value="Other"/>
+                <element dependent_value="Compliance Assurance" inactive_on_update="false" label="Other" sequence="17" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="App Security" sequence="1" value="App Security"/>
+                <element inactive_on_update="false" label="Compliance and Assurance" sequence="2" value="Compliance Assurance"/>
+                <element inactive_on_update="false" label="Infrastructure" sequence="3" value="Infrastructure"/>
+                <element inactive_on_update="false" label="Policy Management" sequence="4" value="Policy Management"/>
+                <element inactive_on_update="false" label="Vulnerability Management" sequence="5" value="Vulnerability Management"/>
+                <element inactive_on_update="false" label="EUC Security" sequence="6" value="EUC Security"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk Score" max_length="40" name="risk_score" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Root Cause" max_length="4000" name="root_cause" type="string"/>
+        <element label="SC Request" max_length="32" name="sc_request" read_only="true" reference="sc_request" type="reference"/>
+        <element label="SC Requested Item" max_length="32" name="sc_requested_item" read_only="true" reference="sc_req_item" type="reference"/>
+        <element label="SLA Completion Date" max_length="40" name="sla_completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Solution Overview" max_length="4000" name="solution_overview" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SSO" max_length="4000" name="sso" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Stakeholders Watchlist" max_length="1024" name="stakeholders_watchlist" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State of Exception" max_length="40" name="state_of_exception" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Under Review" sequence="3" value="under_review"/>
+                <element inactive_on_update="false" label="Business Override" sequence="4" value="business_override"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="User audience distribution" max_length="4000" name="user_audience_distribution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Valid to" max_length="40" name="valid_to" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the expected timeline for the primary SSO  configuration in  our product" max_length="40" name="what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_productio" type="glide_date_time"/>
+        <element label="Who will be supporting the application" max_length="32" name="who_will_be_supporting_the_application" reference="sys_user" type="reference"/>
+        <element label="WK Workforce (employees, contractors) with WK mail in scope" max_length="32" name="wk_workforce_employees_contractors_with_wk_mail_in_scope" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Worknotes" max_length="4000" name="worknotes" type="string"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="owner_2"/>
+        </index>
+        <index name="index3">
+            <element name="owner_3"/>
+        </index>
+        <index name="index4">
+            <element name="owner_1"/>
+        </index>
+        <index name="index5">
+            <element name="application_owner"/>
+        </index>
+        <index name="index6">
+            <element name="requested_for"/>
+        </index>
+        <index name="index7">
+            <element name="business_unit"/>
+        </index>
+        <index name="index8">
+            <element name="division"/>
+        </index>
+        <index name="index9">
+            <element name="approver_1"/>
+        </index>
+        <index name="index10">
+            <element name="requested_by"/>
+        </index>
+        <index name="index11">
+            <element name="sc_request"/>
+        </index>
+        <index name="index12">
+            <element name="assigned_group"/>
+        </index>
+        <index name="index13">
+            <element name="project_manager"/>
+        </index>
+        <index name="index14">
+            <element name="sc_requested_item"/>
+        </index>
+        <index name="index15">
+            <element name="approver_2"/>
+        </index>
+        <index name="index16">
+            <element name="approver_3"/>
+        </index>
+        <index name="index17">
+            <element name="assigned_person"/>
+        </index>
+    </element>
+</database>

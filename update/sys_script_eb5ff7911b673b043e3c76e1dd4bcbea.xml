@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_wkus_request_man_intake</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_wkus_request_man_intake">request_sub_typeINAdd New Policy/ Standards,DAST Scan,Identity Management,License,Ongoing Monitoring: Onsite Assessment,Ongoing Monitoring: Questionnaire,Other,Penetration Test,Pre-Sale : Contract Review,Pre-Sale: Virtual Assessment,Review Policy/Standard,Security Exception,SIEM,SSO,Training,Update Existing Policy/ Standards,Vulnerability Scan^EQ<item endquery="false" field="request_sub_type" goto="false" newquery="false" operator="IN" or="false" value="Add New Policy/ Standards,DAST Scan,Identity Management,License,Ongoing Monitoring: Onsite Assessment,Ongoing Monitoring: Questionnaire,Other,Penetration Test,Pre-Sale : Contract Review,Pre-Sale: Virtual Assessment,Review Policy/Standard,Security Exception,SIEM,SSO,Training,Update Existing Policy/ Standards,Vulnerability Scan"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Assignment group</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr= current.getValue('request_sub_type');
+	var gd=current.getValue('request_type');
+	if(gr=='Security Exception'){
+		current.setValue('assignment_group','89920def1bdbbfc03e3c76e1dd4bcb1b');
+		current.setValue('assigned_to','7db76562dba74b8c7134ffa51d9619d7');
+	}
+	else if(gr=='Pre-Sale : Contract Review'){
+		current.setValue('assignment_group','6e038def1bdbbfc03e3c76e1dd4bcbd8');
+		current.setValue('assigned_to','7db76562dba74b8c7134ffa51d9619d7');
+	}
+	else if(gr=='Pre-Sale: RFP/RFI, Questionnaire'){
+		current.setValue('assignment_group','f83349231b1fbfc03e3c76e1dd4bcb49');
+		current.setValue('assigned_to','a46f2c060f67b500059d7d4ce1050e00');
+	}
+	else if(gr=='Pre-Sale: Virtual Assessment'){
+		current.setValue('assignment_group','f83349231b1fbfc03e3c76e1dd4bcb49');
+		current.setValue('assigned_to','a46f2c060f67b500059d7d4ce1050e00');
+
+	}
+	else if(gr=='Ongoing Monitoring: Questionnaire'){
+		current.setValue('assignment_group','f83349231b1fbfc03e3c76e1dd4bcb49');
+		current.setValue('assigned_to','a46f2c060f67b500059d7d4ce1050e00');
+
+	}
+	else if(gr=='Ongoing Monitoring: Onsite Assessment'){
+		current.setValue('assignment_group','f83349231b1fbfc03e3c76e1dd4bcb49');
+		current.setValue('assigned_to','a46f2c060f67b500059d7d4ce1050e00');
+
+	}
+	else if(gr=='Add New Policy/ Standards'){
+		current.setValue('assignment_group','34930d231b1fbfc03e3c76e1dd4bcbce');
+				current.setValue('assigned_to','8fe8a82d0ffd6a00f0b205cce1050e44');
+
+	}
+	else if(gr=='Update Existing Policy/ Standards'){
+		current.setValue('assignment_group','34930d231b1fbfc03e3c76e1dd4bcbce');
+						current.setValue('assigned_to','8fe8a82d0ffd6a00f0b205cce1050e44');
+
+	}
+	else if(gr=='Review Policy/Standard'){
+		current.setValue('assignment_group','34930d231b1fbfc03e3c76e1dd4bcbce');
+						current.setValue('assigned_to','8fe8a82d0ffd6a00f0b205cce1050e44');
+
+	}
+	else if(gd=='App Security'){
+		current.setValue('assignment_group','a036aff71baeb7003e3c76e1dd4bcbfd');
+		
+	}
+	else if(gd=='Infrastructure'){
+		current.setValue('assignment_group','a036aff71baeb7003e3c76e1dd4bcbfd');
+		
+	}
+	else if(gd=='EUC Security'){
+		current.setValue('assignment_group','a036aff71baeb7003e3c76e1dd4bcbfd');
+		
+	}
+   //Type appropriate comment here, and begin script below
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+        <sys_created_on>2019-08-28 06:16:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb5ff7911b673b043e3c76e1dd4bcbea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Assignment group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sys_script_eb5ff7911b673b043e3c76e1dd4bcbea</sys_update_name>
+        <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+        <sys_updated_on>2019-08-28 06:32:31</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_productio" label="What is the expected timeline for the primary SSO  configuration in  our product" language="en" table="x_wkus_request_man_intake">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_productio</element>
+            <help/>
+            <hint/>
+            <label>What is the expected timeline for the primary SSO  configuration in  our product</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <plural>What is the expected timeline for the primary SSO  configuration in  our product</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-18 10:43:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>11b3b15c1bf63b001d370dc8cd4bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>What is the expected timeline for the primary SSO  configuration in  our production environment</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_documentation_x_wkus_request_man_intake_what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_production_environment_en</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-18 10:43:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

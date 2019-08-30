@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Response Task</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include('validators');
+(function () {
+	if (current.u_visible_for.match(gs.getUser().getCompanyID()) || gs.getUser().getCompanyID() == current.company.sys_id) {
+		var body = email.body_text.toString() || email.body_html.toString();
+		current.work_notes = "reply from: " + email.origemail + "\n\n" + body;
+	
+		current.update();
+	}
+})();]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>Divya.Vellanki</sys_created_by>
+        <sys_created_on>2019-07-31 05:46:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>712ca3941b4bf380cd6298efbd4bcb40</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Response Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sysevent_in_email_action_712ca3941b4bf380cd6298efbd4bcb40</sys_update_name>
+        <sys_updated_by>Divya.Vellanki</sys_updated_by>
+        <sys_updated_on>2019-07-31 05:54:11</sys_updated_on>
+        <table>x_wkus_request_man_intake_task</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

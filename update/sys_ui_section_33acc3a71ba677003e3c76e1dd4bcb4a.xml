@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Submitter" section_id="33acc3a71ba677003e3c76e1dd4bcb4a" sys_domain="global" table="x_wkus_request_man_intake" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>0</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>219062aa1b17bbc03e3c76e1dd4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>industry_impact</element>
+            <position>1</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a19062aa1b17bbc03e3c76e1dd4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>justification</element>
+            <position>2</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>259062aa1b17bbc03e3c76e1dd4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_classification</element>
+            <position>3</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>ad90a2aa1b17bbc03e3c76e1dd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_data_risk</element>
+            <position>4</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2190a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a190a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>product_name</element>
+            <position>6</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2590a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>regulatory_impact</element>
+            <position>7</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a590a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>associated_ticket</element>
+            <position>8</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2990a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>management_line_for_the_buinsess_affected</element>
+            <position>9</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a990a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impacted_applications_or_items</element>
+            <position>10</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2d90a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>ad90a2aa1b17bbc03e3c76e1dd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detailed_description_f</element>
+            <position>12</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2190a2aa1b17bbc03e3c76e1dd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detailed_description_f_in_html</element>
+            <position>13</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a190a2aa1b17bbc03e3c76e1dd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detailed_description_g</element>
+            <position>14</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2590a2aa1b17bbc03e3c76e1dd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detailed_description_sso</element>
+            <position>15</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>a590a2aa1b17bbc03e3c76e1dd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detailed_description_sso_in_html</element>
+            <position>16</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-08-19 10:17:47</sys_created_on>
+            <sys_id>2990a2aa1b17bbc03e3c76e1dd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-19 10:17:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Submitter</caption>
+            <header>false</header>
+            <name>x_wkus_request_man_intake</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 09:17:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33acc3a71ba677003e3c76e1dd4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Submitter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_ui_section_33acc3a71ba677003e3c76e1dd4bcb4a</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 09:17:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

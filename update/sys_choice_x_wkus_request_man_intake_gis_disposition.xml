@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gis_disposition" table="x_wkus_request_man_intake" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Engineering</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>0</sequence>
+            <sys_created_by>Drishti.Jain</sys_created_by>
+            <sys_created_on>2019-07-19 06:17:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4308e241bfabb003e3c76e1dd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Drishti.Jain</sys_updated_by>
+            <sys_updated_on>2019-07-19 06:17:03</sys_updated_on>
+            <value>engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>1</sequence>
+            <sys_created_by>Drishti.Jain</sys_created_by>
+            <sys_created_on>2019-07-19 06:17:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c308e241bfabb003e3c76e1dd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Drishti.Jain</sys_updated_by>
+            <sys_updated_on>2019-07-19 06:17:03</sys_updated_on>
+            <value>project</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>2</sequence>
+            <sys_created_by>Drishti.Jain</sys_created_by>
+            <sys_created_on>2019-07-19 06:17:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc308e241bfabb003e3c76e1dd4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Drishti.Jain</sys_updated_by>
+            <sys_updated_on>2019-07-19 06:17:03</sys_updated_on>
+            <value>invalid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_disposition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assessor</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>3</sequence>
+            <sys_created_by>Drishti.Jain</sys_created_by>
+            <sys_created_on>2019-07-19 06:17:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0308e241bfabb003e3c76e1dd4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Drishti.Jain</sys_updated_by>
+            <sys_updated_on>2019-07-19 06:17:03</sys_updated_on>
+            <value>assessor</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gis_disposition</element>
+            <name>x_wkus_request_man_intake</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Drishti.Jain</sys_created_by>
+            <sys_created_on>2019-07-19 06:17:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fc308e241bfabb003e3c76e1dd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gis_disposition</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_choice_x_wkus_request_man_intake_gis_disposition</sys_update_name>
+            <sys_updated_by>Drishti.Jain</sys_updated_by>
+            <sys_updated_on>2019-07-19 06:17:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

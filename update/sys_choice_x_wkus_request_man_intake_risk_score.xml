@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="risk_score" table="x_wkus_request_man_intake" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>1</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:43:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9f4872b1b6677003e3c76e1dd4bcbdf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:44:45</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>2</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:45:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b354b2b1b6677003e3c76e1dd4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:45:00</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>3</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e965c36b1b6677003e3c76e1dd4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:45:45</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>risk_score</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>4</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb75876b1b6677003e3c76e1dd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:46:12</sys_updated_on>
+            <value>critical</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>risk_score</element>
+            <name>x_wkus_request_man_intake</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:43:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>15f4872b1b6677003e3c76e1dd4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>risk_score</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_choice_x_wkus_request_man_intake_risk_score</sys_update_name>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:43:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

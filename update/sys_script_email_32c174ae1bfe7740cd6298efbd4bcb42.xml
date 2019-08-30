@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Intake_notes</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+				if(current.intake.request_type.getDisplayValue()=='Compliance and Assurance'&& current.intake.request_sub_type.getDisplayValue()=='Security Exception'){
+					template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Submitter Information</span></strong></p></div></br>');
+					template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+					template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+					
+					
+								template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Number</strong> </td><td width=50%>"+current.intake.number+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Requested For </strong></td><td width=50%>"+current.intake.requested_for.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Division </strong></td><td width=50% >"+current.intake.division.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td  bgcolor='lightgray' width=50%><strong>Business Unit</strong> </td><td width=50%>"+current.intake.business_unit.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request type</strong> </td><td width=50%>"+current.intake.request_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request Sub-type </strong></td><td width=50%>"+current.intake.request_sub_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Demand Status</strong> </td><td width=50%>"+current.intake.demand_status.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Assignment Group</strong> </td><td width=50%>"+current.intake.assignment_group.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Assigned To</strong></td><td width=50%>"+current.intake.assigned_to.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b> Justification </b></td><td>"+current.intake.justification+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b> Associated Ticket </b></td><td>"+current.intake.associated_ticket+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b> Data Classification</b></td><td>"+current.intake.data_classification+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray'width=50%> <b>Management Line for Business</b> </td><td>"+current.intake.management_line_for_the_buinsess_affected+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description</strong></td><td width=50%>"+current.intake.detailed_description_g
++"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description in HTML</strong></td><td width=50%>"+current.intake.detailed_description_g_in_html
++"</td> </tr>") ;
+		template.print("</tbody></table></br>");
+					template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Assessor</span></strong></p></div></br>');
+					template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+					template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Exception type</strong> </td><td width=50%>"+current.intake.exception_type.getDisplayValue()+"</td> </tr>");
+										template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Likelihood</strong> </td><td width=50%>"+current.intake.likelihood.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Highest Potential Impact</strong> </td><td width=50%>"+current.intake.highest_potential_impact.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Number of Extensions</strong> </td><td width=50%>"+current.intake.number_of_extensions
++"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Root Cause</strong> </td><td width=50%>"+current.intake.root_cause+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Expected Remediation Date</strong> </td><td width=50%>"+current.intake.expected_remediation_date+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Risk Score</strong> </td><td width=50%>"+current.intake.risk_score.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Valid To</strong> </td><td width=50%>"+current.intake.valid_to+"</td> </tr>");
+					
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Impacted Applications or Items</strong> </td><td width=50%>"+current.intake.impacted_applications_or_items+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50% ><strong>Assessment</strong> </td><td width=50%>"+current.intake.assessment+"</td> </tr>");
+										template.print("</tbody></table></br>");
+					template.print("<style>div { border: 1px solid black;background-color: lightgray;}</style>");
+		template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Task Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Number</b></td><td>"+current.number+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Due Date</b></td><td>"+current.due_date+"</td> </tr>");
+						template.print("<tr> <td bgcolor='lightgray' width=50%><b>State</b></td><td>"+current.state.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Short Description</b></td><td>"+current.short_description+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Detailed Description</b></td><td>"+current.description+"</td> </tr>");
+											template.print("</tbody></table></br>");
+
+
+
+
+
+								
+				}
+	if(current.intake.request_sub_type.getDisplayValue()=='Pre-Sale : Contract Review'||current.intake.request_sub_type.getDisplayValue()=='Pre-Sale: Virtual Assessment'||current.intake.request_sub_type.getDisplayValue()=='Pre-Sale: RFP/RFI, Questionnaire,Document Requests'){
+		template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Submitter Information</span></strong></p></div></br>');
+					template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+					template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+					
+					
+								template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Number</strong> </td><td width=50%>"+current.intake.number+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Requested For </strong></td><td width=50%>"+current.intake.requested_for.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Division </strong></td><td width=50% >"+current.intake.division.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td  bgcolor='lightgray' width=50%><strong>Business Unit</strong> </td><td width=50%>"+current.intake.business_unit.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request type</strong> </td><td width=50%>"+current.intake.request_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request Sub-type </strong></td><td width=50%>"+current.intake.request_sub_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Demand Status</strong> </td><td width=50%>"+current.intake.demand_status.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Assignment Group</strong> </td><td width=50%>"+current.intake.assignment_group.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Assigned To</strong></td><td width=50%>"+current.intake.assigned_to.getDisplayValue()+"</td> </tr>");
+		template.print("<tr> <td bgcolor='lightgray' width=50%><b> Customer Name </b></td><td>"+current.intake.customer_name+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Product Name</b></td><td>"+current.intake.product_name+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description</strong></td><td width=50%>"+current.intake.detailed_description_g
++"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description in HTML</strong></td><td width=50%>"+current.intake.detailed_description_g_in_html
++"</td> </tr>") ;
+		
+					
+					
+		template.print("</tbody></table></br>");
+		template.print("<style>div { border: 1px solid black;background-color: lightgray;}</style>");
+		template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Task Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Number</b></td><td>"+current.number+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Due Date</b></td><td>"+current.due_date+"</td> </tr>");
+						template.print("<tr> <td bgcolor='lightgray' width=50%><b>State</b></td><td>"+current.state.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Short Description</b></td><td>"+current.short_description+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Detailed Description</b></td><td>"+current.description+"</td> </tr>");
+											template.print("</tbody></table></br>");
+
+
+		
+		
+		
+		
+		
+		
+	}
+					if(current.intake.request_sub_type.getDisplayValue()=='SSO'){
+								template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Submitter Information</span></strong></p></div></br>');
+					template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+					template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+					
+					
+								template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Number</strong> </td><td width=50%>"+current.intake.number+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Requested For </strong></td><td width=50%>"+current.intake.requested_for.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Division </strong></td><td width=50% >"+current.intake.division.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td  bgcolor='lightgray' width=50%><strong>Business Unit</strong> </td><td width=50%>"+current.intake.business_unit.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request type</strong> </td><td width=50%>"+current.intake.request_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request Sub-type </strong></td><td width=50%>"+current.intake.request_sub_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Demand Status</strong> </td><td width=50%>"+current.intake.demand_status.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Assignment Group</strong> </td><td width=50%>"+current.intake.assignment_group.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Assigned To</strong></td><td width=50%>"+current.intake.assigned_to.getDisplayValue()+"</td> </tr>");
+					
+										template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description</strong></td><td width=50%>"+current.intake.detailed_description_sso
+
++"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description in HTML</strong></td><td width=50%>"+current.intake.detailed_description_sso_in_html
+
++"</td> </tr>") ;
+		
+					
+					
+		template.print("</tbody></table></br>");
+						template.print("<style>div { border: 1px solid black;background-color: lightgray;}</style>");
+		template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Task Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Number</b></td><td>"+current.number+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Due Date</b></td><td>"+current.due_date+"</td> </tr>");
+						template.print("<tr> <td bgcolor='lightgray' width=50%><b>State</b></td><td>"+current.state.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Short Description</b></td><td>"+current.short_description+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Detailed Description</b></td><td>"+current.description+"</td> </tr>");
+											template.print("</tbody></table></br>");
+
+
+					
+					
+					}
+						if(current.intake.request_sub_type.getDisplayValue()=='SIEM' ||current.intake.request_sub_type.getDisplayValue()=='Identity Management'||current.intake.request_sub_type.getDisplayValue()=='Training'||current.intake.request_sub_type.getDisplayValue()=='License'||current.intake.request_sub_type.getDisplayValue()=='Vulnerability Scan'||current.intake.request_sub_type.getDisplayValue()=='DAST Scan'|| current.intake.request_sub_type.getDisplayValue()=='Ongoing Monitoring: Onsite Assessment, Virtual Assessment'||current.intake.request_sub_type.getDisplayValue()=='Ongoing Monitoring: Questionnaire, Document Requests'){
+							template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">D & I Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Effort Size</b></td><td>"+current.intake.effort_size.getDisplayValue()+"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Non-GIS Resource Required</b></td><td>"+current.intake.non_gis_resources_required+"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Hardware/Software Needs</b></td><td>"+current.intake.hardware_software_need+"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Solution Overview</b></td><td>"+current.intake.solution_overview+"</td> </tr>");
+
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Enagegement Begin Date</b></td><td>"+current.intake.engagement_begin_date+"</td> </tr>");
+						template.print("<tr> <td bgcolor='lightgray' width=50%><b>Engagement End Date</b></td><td>"+current.intake.engagement_end_date+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Dependencies</b></td><td>"+current.intake.dependencies+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Pre-Requisites</b></td><td>"+current.intake.pre_requisites+"</td> </tr>");
+
+
+							
+											template.print("</tbody></table></br>");
+							template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">SME Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Estimatied ROM Cost</b></td><td>"+current.intake.estimated_rom_cost+"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Estimated ROM Man Hours</b></td><td>"+current.intake.estimated_rom_man_hours+"</td> </tr>");
+	
+
+							
+											template.print("</tbody></table></br>");
+							template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Submitter Information</span></strong></p></div></br>');
+					template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+					template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+					
+					
+								template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Number</strong> </td><td width=50%>"+current.intake.number+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50% ><strong> Requested For </strong></td><td width=50%>"+current.intake.requested_for.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Division </strong></td><td width=50% >"+current.intake.division.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td  bgcolor='lightgray' width=50%><strong>Business Unit</strong> </td><td width=50%>"+current.intake.business_unit.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request type</strong> </td><td width=50%>"+current.intake.request_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Request Sub-type </strong></td><td width=50%>"+current.intake.request_sub_type.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%> <strong>Demand Status</strong> </td><td width=50%>"+current.intake.demand_status.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong> Assignment Group</strong> </td><td width=50%>"+current.intake.assignment_group.getDisplayValue()+"</td> </tr>");
+			template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Assigned To</strong></td><td width=50%>"+current.intake.assigned_to.getDisplayValue()+"</td> </tr>");
+					
+										template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description</strong></td><td width=50%>"+current.intake.detailed_description_f+"</td> </tr>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><strong>Detailed Description in HTML</strong></td><td width=50%>"+current.intake.detailed_description_f_in_html
+
++"</td> </tr>") ;
+							template.print("</tbody></table></br>");
+							template.print("<style>div { border: 1px solid black;background-color: lightgray;}</style>");
+		template.print('<div align="center"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt; color: #000000;">Task Information</span></strong></p></div></br>');
+		template.print("<style> table {    border-collapse: collapse; align:center; text-align:center; }  th, td {    border: 1px solid black;    padding: 11px;    text-align: center; text-wrap:suppress; </style>");
+			template.print("<body>");
+	
+			template.print("<table style='width:100%; font-family: arial, helvetica, sans-serif; font-size:12pt '  border='2px solid black'><tbody>");
+	template.print("<tr> <td bgcolor='lightgray' width=50%><b>Number</b></td><td>"+current.number+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Due Date</b></td><td>"+current.due_date+"</td> </tr>");
+						template.print("<tr> <td bgcolor='lightgray' width=50%><b>State</b></td><td>"+current.state.getDisplayValue()+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Short Description</b></td><td>"+current.short_description+"</td> </tr>");
+					template.print("<tr> <td bgcolor='lightgray' width=50%><b>Detailed Description</b></td><td>"+current.description+"</td> </tr>");
+											template.print("</tbody></table></br>");
+
+
+
+		
+
+							
+						}
+	
+
+		
+				template.print("</tbody></table></br>");
+
+				
+				
+			})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>Divya.Vellanki</sys_created_by>
+        <sys_created_on>2019-07-25 05:48:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>32c174ae1bfe7740cd6298efbd4bcb42</sys_id>
+        <sys_mod_count>89</sys_mod_count>
+        <sys_name>Intake_notes</sys_name>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sys_script_email_32c174ae1bfe7740cd6298efbd4bcb42</sys_update_name>
+        <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+        <sys_updated_on>2019-08-21 05:31:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

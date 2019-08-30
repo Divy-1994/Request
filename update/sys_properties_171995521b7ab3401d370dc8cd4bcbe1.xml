@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Intake activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_wkus_request_man_intake_activity.fields</name>
+        <read_roles/>
+        <suffix>x_wkus_request_man</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+        <sys_created_on>2019-07-24 13:55:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>171995521b7ab3401d370dc8cd4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_wkus_request_man_intake_activity.fields</sys_name>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sys_properties_171995521b7ab3401d370dc8cd4bcbe1</sys_update_name>
+        <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+        <sys_updated_on>2019-07-24 13:55:39</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,additional_comments,comments,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=171995521b7ab3401d370dc8cd4bcbe1"/>
+</record_update>

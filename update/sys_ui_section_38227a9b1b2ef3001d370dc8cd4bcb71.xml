@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="38227a9b1b2ef3001d370dc8cd4bcb71" sys_domain="global" table="x_wkus_request_man_intake" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>94cd66491beb77001d370dc8cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>18cd66491beb77001d370dc8cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>2</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>98cd66491beb77001d370dc8cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>3</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>1ccd66491beb77001d370dc8cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_for</element>
+            <position>4</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>9ccd66491beb77001d370dc8cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>division</element>
+            <position>5</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>10cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_unit</element>
+            <position>6</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:08</sys_created_on>
+            <sys_id>90cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>7</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>14cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>8</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>94cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>18cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_request</element>
+            <position>10</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>98cd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_requested_item</element>
+            <position>11</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>1ccd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>12</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>9ccd66491beb77001d370dc8cd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_sub_type</element>
+            <position>13</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>10cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>14</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>90cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>demand_status</element>
+            <position>15</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>14cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>16</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>94cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gis_disposition</element>
+            <position>17</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>18cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>level_of_effort</element>
+            <position>18</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>98cd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expedite</element>
+            <position>19</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>1ccd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expedite_date</element>
+            <position>20</position>
+            <sys_created_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_created_by>
+            <sys_created_on>2019-08-27 05:40:09</sys_created_on>
+            <sys_id>9ccd66491beb77001d370dc8cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+            <sys_updated_on>2019-08-27 05:40:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_wkus_request_man_intake</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Prashanth.Gadgil</sys_created_by>
+            <sys_created_on>2019-07-15 12:42:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38227a9b1b2ef3001d370dc8cd4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_wkus_request_man_intake</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_ui_section_38227a9b1b2ef3001d370dc8cd4bcb71</sys_update_name>
+            <sys_updated_by>Prashanth.Gadgil</sys_updated_by>
+            <sys_updated_on>2019-07-15 12:42:49</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_wkus_request_man_intake">request_type=Compliance Assurance^request_sub_type=Security Exception^EQ<item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="Compliance Assurance"/>
+            <item endquery="false" field="request_sub_type" goto="false" newquery="false" operator="=" or="false" value="Security Exception"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setDisplay('hardware_software_need',false);
+		g_form.setDisplay('effort_size',false);
+	g_form.setDisplay('solution_overview',false);
+	g_form.setDisplay('non_gis_resources_require',false);
+	g_form.setDisplay('gis_comitted_end_date',false);
+	g_form.setDisplay('sme_comments',false);
+	g_form.setDisplay('pre_requisite',false);
+	g_form.setDisplay('priority',false);
+	g_form.setDisplay('worknotes',false);
+		g_form.setDisplay('dependencies',false);
+
+
+
+
+
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Security Exception</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+        <sys_created_on>2019-07-16 09:47:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aef7cb6f1b6677003e3c76e1dd4bcbc0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Security Exception</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sys_ui_policy_aef7cb6f1b6677003e3c76e1dd4bcbc0</sys_update_name>
+        <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+        <sys_updated_on>2019-08-14 09:48:07</sys_updated_on>
+        <table>x_wkus_request_man_intake</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

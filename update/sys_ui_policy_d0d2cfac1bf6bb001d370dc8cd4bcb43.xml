@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_wkus_request_man_intake">assigned_toISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	var userID = g_user.userID;
+
+	if(g_form.getValue('assigned_to') == userID){
+		g_form.setReadOnly('di_group','false');
+g_form.setReadOnly('di_owner','false');
+		g_form.setReadOnly('sme_group','false');
+		g_form.setReadOnly('sme_owner','false');
+		
+		g_form.setReadOnly('short_description','false');
+		g_form.setReadOnly('sys_created_on','false');
+		
+		g_form.setReadOnly('assignment_group','false');
+		g_form.setReadOnly('assigned_to','false');
+	g_form.setReadOnly('actual_completion_date','false');
+g_form.setReadOnly('affected_items','false');
+g_form.setReadOnly('application_name_to_be_protected','false');
+g_form.setReadOnly('application_owner','false');
+g_form.setReadOnly('approval_decision_1','false');
+g_form.setReadOnly('approval_decision_2','false');
+g_form.setReadOnly('approval_decision_3','false');
+g_form.setReadOnly('approval_decision_date_1','false');
+g_form.setReadOnly('approval_decsion_date_2','false');
+g_form.setReadOnly('approval_decsion_date_3','false');
+g_form.setReadOnly('approval_tier','false');
+g_form.setReadOnly('approver_1','false');
+g_form.setReadOnly('approver_1_comment','false');
+g_form.setReadOnly('approver_1_type','false');
+g_form.setReadOnly('approver_2','false');
+g_form.setReadOnly('approver_2_comment','false');
+g_form.setReadOnly('approver_2_type','false');
+g_form.setReadOnly('approver_3','false');
+g_form.setReadOnly('approver_3_comment','false');
+g_form.setReadOnly('approver_3_type','false');
+g_form.setReadOnly('assessment','false');
+g_form.setReadOnly('associated_ticket','false');
+g_form.setReadOnly('business_unit','false');
+g_form.setReadOnly('count_expected_to_grow_expand','false');
+g_form.setReadOnly('customer_name','false');
+g_form.setReadOnly('data_classification','false');
+g_form.setReadOnly('demand_status','false');
+g_form.setReadOnly('dependencies','false');
+g_form.setReadOnly('description_of_data_risk','false');
+g_form.setReadOnly('detailed_description','false');
+g_form.setReadOnly('division','false');
+g_form.setReadOnly('effort_size','false');
+g_form.setReadOnly('engagement_begin_date','false');
+g_form.setReadOnly('engagement_end_date','false');
+g_form.setReadOnly('estimated_rom_cost','false');
+g_form.setReadOnly('estimated_rom_man_hours','false');
+g_form.setReadOnly('exception_type','false');
+g_form.setReadOnly('expected_initial_count_of_users_within_the_application','false');
+g_form.setReadOnly('expected_remediation_date','false');
+g_form.setReadOnly('expedite','false');
+g_form.setReadOnly('gis_comitted_end_date','false');
+g_form.setReadOnly('gis_disposition','false');
+g_form.setReadOnly('hardware_software_need','false');
+g_form.setReadOnly('highest_potential_impact','false');
+g_form.setReadOnly('how_many_app_environments_to_support','false');
+g_form.setReadOnly('how_will_users_get_authorization_profile_with_permissions_within_the_application','false');
+g_form.setReadOnly('impacted_application','false');
+g_form.setReadOnly('justification','false');
+g_form.setReadOnly('likelihood','false');
+g_form.setReadOnly('management_line_for_the_buinsess_affected','false');
+g_form.setReadOnly('native_mobile_app_support_required','false');
+g_form.setReadOnly('non_gis_resources_required','false');
+g_form.setReadOnly('number_of_extensions','false');
+g_form.setReadOnly('other','false');
+g_form.setReadOnly('other_exception_type','false');
+g_form.setReadOnly('owner_1','false');
+g_form.setReadOnly('owner_1_ack_date','false');
+g_form.setReadOnly('owner_1_title','false');
+g_form.setReadOnly('owner_2','false');
+g_form.setReadOnly('owner_2_ack_date','false');
+g_form.setReadOnly('owner_2_title','false');
+g_form.setReadOnly('owner_3','false');
+g_form.setReadOnly('owner_3_ack_date','false');
+g_form.setReadOnly('owner_3_title','false');
+g_form.setReadOnly('pre_requisites','false');
+g_form.setReadOnly('product_name','false');
+g_form.setReadOnly('project_manager','false');
+g_form.setReadOnly('reason','false');
+g_form.setReadOnly('requested_by','false');
+g_form.setReadOnly('requested_completion_date','false');
+g_form.setReadOnly('requested_for','false');
+g_form.setReadOnly('request_detail','false');
+g_form.setReadOnly('request_sub_type','false');
+g_form.setReadOnly('request_type','false');
+g_form.setReadOnly('risk_score','false');
+g_form.setReadOnly('root_cause','false');
+g_form.setReadOnly('sc_request','false');
+g_form.setReadOnly('sc_requested_item','false');
+g_form.setReadOnly('sla_completion_date','false');
+g_form.setReadOnly('sme_comments','false');
+g_form.setReadOnly('solution_overview','false');
+g_form.setReadOnly('stakeholders_watchlist','false');
+g_form.setReadOnly('state_of_exception','false');
+g_form.setReadOnly('sys_id','false');
+g_form.setReadOnly('user_audience_distribution','false');
+g_form.setReadOnly('valid_to','false');
+g_form.setReadOnly('what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_productio','false');
+g_form.setReadOnly('who_will_be_supporting_the_application','false');
+g_form.setReadOnly('wk_workforce_employees_contractors_with_wk_mail_in_scope','false');
+g_form.setReadOnly('worknotes','false');
+g_form.setReadOnly('','false');
+g_form.setReadOnly('intake','false');
+g_form.setReadOnly('sys_id','false');
+}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var userID = g_user.userID;
+
+	if(g_form.getValue('assigned_to') != userID){
+		g_form.setReadOnly('di_group','true');
+g_form.setReadOnly('di_owner','true');
+		g_form.setReadOnly('sme_group','true');
+		g_form.setReadOnly('sme_owner','true');
+		
+		g_form.setReadOnly('short_description','true');
+		g_form.setReadOnly('sys_created_on','true');
+		
+		g_form.setReadOnly('assignment_group','true');
+		g_form.setReadOnly('assigned_to','true');
+		
+		
+		
+g_form.setReadOnly('actual_completion_date','true');
+g_form.setReadOnly('affected_items','true');
+g_form.setReadOnly('application_name_to_be_protected','true');
+g_form.setReadOnly('application_owner','true');
+g_form.setReadOnly('approval_decision_1','true');
+g_form.setReadOnly('approval_decision_2','true');
+g_form.setReadOnly('approval_decision_3','true');
+g_form.setReadOnly('approval_decision_date_1','true');
+g_form.setReadOnly('approval_decsion_date_2','true');
+g_form.setReadOnly('approval_decsion_date_3','true');
+g_form.setReadOnly('approval_tier','true');
+g_form.setReadOnly('approver_1','true');
+g_form.setReadOnly('approver_1_comment','true');
+g_form.setReadOnly('approver_1_type','true');
+g_form.setReadOnly('approver_2','true');
+g_form.setReadOnly('approver_2_comment','true');
+g_form.setReadOnly('approver_2_type','true');
+g_form.setReadOnly('approver_3','true');
+g_form.setReadOnly('approver_3_comment','true');
+g_form.setReadOnly('approver_3_type','true');
+g_form.setReadOnly('assessment','true');
+g_form.setReadOnly('associated_ticket','true');
+g_form.setReadOnly('business_unit','true');
+g_form.setReadOnly('count_expected_to_grow_expand','true');
+g_form.setReadOnly('customer_name','true');
+g_form.setReadOnly('data_classification','true');
+g_form.setReadOnly('demand_status','true');
+g_form.setReadOnly('dependencies','true');
+g_form.setReadOnly('description_of_data_risk','true');
+g_form.setReadOnly('detailed_description','true');
+g_form.setReadOnly('division','true');
+g_form.setReadOnly('effort_size','true');
+g_form.setReadOnly('engagement_begin_date','true');
+g_form.setReadOnly('engagement_end_date','true');
+g_form.setReadOnly('estimated_rom_cost','true');
+g_form.setReadOnly('estimated_rom_man_hours','true');
+g_form.setReadOnly('exception_type','true');
+g_form.setReadOnly('expected_initial_count_of_users_within_the_application','true');
+g_form.setReadOnly('expected_remediation_date','true');
+g_form.setReadOnly('expedite','true');
+g_form.setReadOnly('gis_comitted_end_date','true');
+g_form.setReadOnly('gis_disposition','true');
+g_form.setReadOnly('hardware_software_need','true');
+g_form.setReadOnly('highest_potential_impact','true');
+g_form.setReadOnly('how_many_app_environments_to_support','true');
+g_form.setReadOnly('how_will_users_get_authorization_profile_with_permissions_within_the_application','true');
+g_form.setReadOnly('impacted_application','true');
+g_form.setReadOnly('justification','true');
+g_form.setReadOnly('likelihood','true');
+g_form.setReadOnly('management_line_for_the_buinsess_affected','true');
+g_form.setReadOnly('native_mobile_app_support_required','true');
+g_form.setReadOnly('non_gis_resources_required','true');
+g_form.setReadOnly('number_of_extensions','true');
+g_form.setReadOnly('other','true');
+g_form.setReadOnly('other_exception_type','true');
+g_form.setReadOnly('owner_1','true');
+g_form.setReadOnly('owner_1_ack_date','true');
+g_form.setReadOnly('owner_1_title','true');
+g_form.setReadOnly('owner_2','true');
+g_form.setReadOnly('owner_2_ack_date','true');
+g_form.setReadOnly('owner_2_title','true');
+g_form.setReadOnly('owner_3','true');
+g_form.setReadOnly('owner_3_ack_date','true');
+g_form.setReadOnly('owner_3_title','true');
+g_form.setReadOnly('pre_requisites','true');
+g_form.setReadOnly('product_name','true');
+g_form.setReadOnly('project_manager','true');
+g_form.setReadOnly('reason','true');
+g_form.setReadOnly('requested_by','true');
+g_form.setReadOnly('requested_completion_date','true');
+g_form.setReadOnly('requested_for','true');
+g_form.setReadOnly('request_detail','true');
+g_form.setReadOnly('request_sub_type','true');
+g_form.setReadOnly('request_type','true');
+g_form.setReadOnly('risk_score','true');
+g_form.setReadOnly('root_cause','true');
+g_form.setReadOnly('sc_request','true');
+g_form.setReadOnly('sc_requested_item','true');
+g_form.setReadOnly('sla_completion_date','true');
+g_form.setReadOnly('sme_comments','true');
+g_form.setReadOnly('solution_overview','true');
+g_form.setReadOnly('stakeholders_watchlist','true');
+g_form.setReadOnly('state_of_exception','true');
+g_form.setReadOnly('sys_id','true');
+g_form.setReadOnly('user_audience_distribution','true');
+g_form.setReadOnly('valid_to','true');
+g_form.setReadOnly('what_is_the_expected_timeline_for_the_primary_sso_configuration_in_our_productio','true');
+g_form.setReadOnly('who_will_be_supporting_the_application','true');
+g_form.setReadOnly('wk_workforce_employees_contractors_with_wk_mail_in_scope','true');
+g_form.setReadOnly('worknotes','true');
+g_form.setReadOnly('','true');
+g_form.setReadOnly('intake','true');
+g_form.setReadOnly('sys_id','true');
+
+		
+	}
+	
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide all,if assigned to is not as logged user </short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Prashanth.Gadgil</sys_created_by>
+        <sys_created_on>2019-07-19 11:10:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0d2cfac1bf6bb001d370dc8cd4bcb43</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Hide all,if assigned to is not as logged user </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+        <sys_update_name>sys_ui_policy_d0d2cfac1bf6bb001d370dc8cd4bcb43</sys_update_name>
+        <sys_updated_by>WK_NA_Divya.Vellanki@wolterskluwer.com</sys_updated_by>
+        <sys_updated_on>2019-08-21 10:52:43</sys_updated_on>
+        <table>x_wkus_request_man_intake</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="likelihood" table="x_wkus_request_man_intake" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Almost Certain</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:56:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5e74b6f1b6677003e3c76e1dd4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:56:30</sys_updated_on>
+            <value>Almost Certain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Likely</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49d7476f1b6677003e3c76e1dd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:56:09</sys_updated_on>
+            <value>Likely</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Possible</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:55:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ac7476f1b6677003e3c76e1dd4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:55:57</sys_updated_on>
+            <value>Possible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rare</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:54:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd87cb2f1b6677003e3c76e1dd4bcb31</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:55:22</sys_updated_on>
+            <value>Rare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unlikely</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:55:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6b7c36f1b6677003e3c76e1dd4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:55:43</sys_updated_on>
+            <value>Unlikely</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>likelihood</element>
+            <name>x_wkus_request_man_intake</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:54:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f587cb2f1b6677003e3c76e1dd4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>likelihood</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_choice_x_wkus_request_man_intake_likelihood</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:54:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

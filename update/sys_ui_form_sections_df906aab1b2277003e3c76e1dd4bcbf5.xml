@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="df906aab1b2277003e3c76e1dd4bcbf5" sys_domain="global" table="x_wkus_request_man_intake" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:04:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb906aab1b2277003e3c76e1dd4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">38227a9b1b2ef3001d370dc8cd4bcb71</sys_ui_section>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 06:04:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 09:17:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbacc3a71ba677003e3c76e1dd4bcb4c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Submitter" display_value="Submitter" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">33acc3a71ba677003e3c76e1dd4bcb4a</sys_ui_section>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 09:30:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:04:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23906aab1b2277003e3c76e1dd4bcbf9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="D&amp;I" display_value="D&amp;I" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">27906aab1b2277003e3c76e1dd4bcbf7</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-19 08:16:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31ab9eac1bb2fb00cd6298efbd4bcb08</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="SME" display_value="SME" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">31ab1eac1bb2fb00cd6298efbd4bcb0b</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-17 06:18:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd4d23b31beeb7003e3c76e1dd4bcb42</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Assessor" display_value="Assessor" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">3d4da7731beeb7003e3c76e1dd4bcb3c</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:11:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5442226f1b2277003e3c76e1dd4bcb68</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Approvals" display_value="Approvals" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">9842226f1b2277003e3c76e1dd4bcb65</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad62266f1b2277003e3c76e1dd4bcbc6</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Owners" display_value="Owners" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">5962266f1b2277003e3c76e1dd4bcbc4</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-19 07:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1890deec1b72fb00cd6298efbd4bcbd9</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Project" display_value="Project" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">9c909eec1b72fb00cd6298efbd4bcbc2</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-19 06:47:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>592742601b72fb00cd6298efbd4bcb5e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_wkus_request_man_intake" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">df906aab1b2277003e3c76e1dd4bcbf5</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_wkus_request_man_intake" sys_domain="global" view="Default view">912742601b72fb00cd6298efbd4bcb59</sys_ui_section>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:36:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_wkus_request_man_intake</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:04:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df906aab1b2277003e3c76e1dd4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_wkus_request_man_intake</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_ui_form_sections_df906aab1b2277003e3c76e1dd4bcbf5</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 06:04:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

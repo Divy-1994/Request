@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gis_approval_decision" table="x_wkus_request_man_intake" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_approval_decision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approve</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:45:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b65076b1b6677003e3c76e1dd4bcb60</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:45:57</sys_updated_on>
+            <value>Approve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gis_approval_decision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reject</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence/>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:46:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe85876b1b6677003e3c76e1dd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:46:21</sys_updated_on>
+            <value>Reject</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gis_approval_decision</element>
+            <name>x_wkus_request_man_intake</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 08:45:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4365076b1b6677003e3c76e1dd4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gis_approval_decision</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_choice_x_wkus_request_man_intake_gis_approval_decision</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 08:45:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

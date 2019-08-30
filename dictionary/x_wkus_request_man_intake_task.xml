@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Intake Task" max_length="40" name="x_wkus_request_man_intake_task" sizeclass="219" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Check" max_length="40" name="check" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Expedite" max_length="40" name="expedite" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Expedite Date" max_length="40" name="expedite_date" type="glide_date"/>
+        <element label="Intake" max_length="32" name="intake" read_only="true" reference="x_wkus_request_man_intake" type="reference"/>
+        <element label="Send Task Email To" max_length="32" name="send_task_email_to" reference="sys_user" type="reference"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <index name="index">
+            <element name="intake"/>
+        </index>
+        <index name="index2">
+            <element name="send_task_email_to"/>
+        </index>
+    </element>
+</database>

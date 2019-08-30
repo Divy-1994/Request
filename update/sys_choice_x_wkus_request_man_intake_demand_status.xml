@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="demand_status" table="x_wkus_request_man_intake" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>1</sequence>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:00:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3eaf5a2b1b2277003e3c76e1dd4bcbea</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:49:36</sys_updated_on>
+            <value>New</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>2</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:10:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c4d76a71b2677003e3c76e1dd4bcb48</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:49:41</sys_updated_on>
+            <value>On Hold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>3</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-17 09:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>091e5c001b36f7003e3c76e1dd4bcbc2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:50:02</sys_updated_on>
+            <value>In Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>4</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:10:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a06dfee31be277003e3c76e1dd4bcb25</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-25 09:50:12</sys_updated_on>
+            <value>Closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>5</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-30 11:52:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe56b3c81b47b380cd6298efbd4bcb29</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-08-21 09:37:04</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>demand_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_wkus_request_man_intake</name>
+            <sequence>6</sequence>
+            <sys_created_by>Geentanjali.Kinjarap</sys_created_by>
+            <sys_created_on>2019-07-16 08:11:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>877dfe671b2677003e3c76e1dd4bcb5e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Geentanjali.Kinjarap</sys_updated_by>
+            <sys_updated_on>2019-07-30 11:52:50</sys_updated_on>
+            <value>Cancelled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>demand_status</element>
+            <name>x_wkus_request_man_intake</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Divya.Vellanki</sys_created_by>
+            <sys_created_on>2019-07-16 06:00:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>76af5a2b1b2277003e3c76e1dd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>demand_status</sys_name>
+            <sys_package display_value="Request Management" source="x_wkus_request_man">d5de66171b2ef3001d370dc8cd4bcb41</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Request Management">d5de66171b2ef3001d370dc8cd4bcb41</sys_scope>
+            <sys_update_name>sys_choice_x_wkus_request_man_intake_demand_status</sys_update_name>
+            <sys_updated_by>Divya.Vellanki</sys_updated_by>
+            <sys_updated_on>2019-07-16 06:00:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
